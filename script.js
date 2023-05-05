@@ -1372,7 +1372,7 @@ sortGenderBtn.addEventListener("click", () => {
       <td>${student.gender}</td>
       <td>${student.class}</td>
       <td>${student.marks}</td>
-      <td>${student.passing ? "Passed" : "Failed"}</td>
+      <td>${student.passing}</td>
       <td>${student.email}</td>
     `;
     femaleTable.querySelector("tbody").appendChild(row);
@@ -1411,7 +1411,7 @@ sortGenderBtn.addEventListener("click", () => {
       <td>${student.gender}</td>
       <td>${student.class}</td>
       <td>${student.marks}</td>
-      <td>${student.passing ? "Passed" : "Failed"}</td>
+      <td>${student.passing}</td>
       <td>${student.email}</td>
     `;
     maleTable.querySelector("tbody").appendChild(row);
